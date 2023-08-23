@@ -1,0 +1,78 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: rgb(69, 63, 63);
+color: aliceblue;
+}
+
+input{
+  padding: 5px;
+}
+
+.bt{
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  height: 35px;
+  border: none;
+  background-color: darkkhaki;
+}
+
+h2{
+  font-size: 35px;
+  text-align: center;
+}
+
+.task5,
+.task4{
+  width: 700px;
+}
+.task6{
+  width: 350px;
+  padding: 10px 30px;
+}
+
+#input01,
+#input02{
+  width: 100%;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btns{
+  width: 365px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.subm{
+  width: 100%;
+  margin-top: 15px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgb(50, 50, 143);
+  color: aliceblue;
+  text-transform: uppercase;
+  border: none;
+  font-size: 30px;
+}
+
+.btncalc{
+  color: #fff;
+  border: none;
+  width: 60px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(129, 102, 154);
+}
+
+.res{
+  text-align: center;
+  font-size: 40px;
+}
